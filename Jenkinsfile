@@ -16,10 +16,4 @@ pipeline {
       steps { sh 'npm test' }
     }
   }
-
- /*  post {
-    success { echo '✅ Pipeline terminé avec succès' }
-    failure { echo '❌ Pipeline échoué' }
-    always  { echo '🏁 Fin de l’exécution' }
-  } */
 }
