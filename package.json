@@ -1,0 +1,14 @@
+{
+  "name": "jenkins-tp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"🔨 Build en cours...\" && node -e \"setTimeout(()=>console.log('✅ Build terminé'), 500)\"",
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Projet TP Jenkins"
+}
